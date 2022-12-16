@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: false }));
 
 const port = 8000;
 
-const uri = "mongodb+srv://Bhavit:bhavit08022002@cluster0.rf3qthh.mongodb.net/competition?retryWrites=true&w=majority";
+const uri = "mongodb+srv://Bhavit:<password>@cluster0.rf3qthh.mongodb.net/competition?retryWrites=true&w=majority";
 
 // connecting database
 mongoose.set('strictQuery', true);
